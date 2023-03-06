@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Techstore/static/css/main.43115f39.css",
+    "main.js": "/Techstore/static/js/main.5cba158f.js",
+    "index.html": "/Techstore/index.html",
+    "main.43115f39.css.map": "/Techstore/static/css/main.43115f39.css.map",
+    "main.5cba158f.js.map": "/Techstore/static/js/main.5cba158f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43115f39.css",
+    "static/js/main.5cba158f.js"
+  ]
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Playfair+Display:wght@600&display=swap");
+
+* {
+  font-family: "Nunito Sans";
+}
+.active {
+  color: #668fde !important;
+}
+.nav a:hover {
+  color: #9db3de !important;
+  transition: all 0.2s !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9db3de;
+  border-radius: 10px;
+}
