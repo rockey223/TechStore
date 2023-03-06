@@ -1,0 +1,505 @@
+
+.productLink {
+  text-decoration: none;
+  color: black;
+}
+.feature {
+  margin: 55px 0;
+}
+.productWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 20px;
+}
+.productItem {
+  height: 300px;
+  width: 365px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.productImage {
+  height: 249px;
+  width: 283px;
+  object-fit: contain;
+  padding: 10px;
+}
+.produtDetails {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+.featuredItemWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.stars {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  font-size: 1rem;
+  color: orange;
+}
+.empty-icon {
+  font-size: 1.2rem;
+  color: orange;
+}
+.cart-Wrapper p,
+.cartTotal p {
+  margin: 10px 0 0 0 ;
+  padding-left: 1.2rem;
+}
+
+/* Cart */
+.cart-Wrapper {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  top: 30px;
+}
+.cartTitle {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  width: 150px;
+}
+.cartElements {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  justify-content: space-around;
+}
+/* cart */
+
+.cartTableElement {
+  width: 90%;
+  margin-left: 65px;
+}
+.cartTable {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* background: #235689; */
+  position: sticky;
+  top: 0;
+  height: 25px;
+  border-top: 2px solid grey;
+  width: 100%;
+}
+.cartAllItems {
+  height: 400px;
+  overflow-y: scroll;
+}
+.cartTitles,
+.cartItems {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.cartItems {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 2px solid grey;
+  scroll-snap-align: start;
+}
+.cart-quantity {
+  display: flex;
+  justify-content: center;
+}
+.cartImage {
+  height: 100px;
+  width: 100px;
+}
+.inStock {
+  color: green;
+}
+.noStock {
+  color: red;
+}
+
+.quantityButton {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 5px;
+  background-color: transparent;
+}
+.quantity-style {
+  font-size: 22px;
+  padding: 0 10px;
+}
+.itemQuantity {
+  height: 30px;
+  width: 30px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.cartDelete {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cartTotal {
+  width: 295px;
+  height: 367px;
+  background-color: #f2f2f2;
+  margin-right: 65px;
+}
+.sub-total{
+margin-bottom: 3px;
+}
+.sub-total,
+.total {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+}
+
+.shipping {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cartOrderPriceDetails,
+.orderTotalPrice {
+  font-size: 16px;
+  width: 254px;
+  height: 100px;
+}
+
+.cartOrderSummary {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.cartOrderLine {
+  width: 90%;
+  border-top: 2px solid grey;
+  position: relative;
+  left: 5%
+}
+
+.totalItem{
+  font-size: 12px;
+  font-weight: 400;
+  height: 1px;
+
+}
+.orderTotalPrice{
+  font-weight: 900;
+}
+.checkout {
+  display: flex;
+  justify-content: center;
+}
+.checkOutButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  height: 42px;
+  background: #668fde;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.billing-Wrapper{
+  position: relative;
+  width: 100%;
+  height: 525px;
+  top: 30px;
+  /* background-color: #674532; */
+ 
+}
+
+a{
+  text-decoration: none!important;
+}
+
+.billingDetails{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  width: 90%;
+}
+
+.Billing_Title{
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+  width: 250px;
+}
+
+.billingFormDetails{
+  display: flex;
+  position: relative;
+  left: 50px;
+  font-size: 16px
+}
+.details,
+.details-filled{
+  position: relative;
+  top: 20px;
+}
+.details-filled{
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+
+.paymentBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.paymentMethodBox {
+  margin: 60px 0;
+  width: 750px;
+  height: 480px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+}
+.paymentMethodBox p {
+  padding: 0 15px;
+}
+
+.paymentMethod {
+  display: flex;
+  position: relative;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 192px;
+  height: 77px;
+  border: 1px solid #d1caca;
+  border-radius: 4px;
+}
+.imageBox img {
+  width: 147px;
+  height: 59px;
+}
+
+
+/* services */
+.servicesDiv {
+  height: 500px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin: 2% 5%;
+  align-items: center;
+}
+.deliver {
+  height: 281px;
+  width: 372px;
+  background-color: #9db3de;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.servicesIcon {
+  font-size: 4rem;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2d55a4;
+}
+
+.midServiceDiv {
+  background-color: none;
+  height: 281px;
+  width: 372px;
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.midService {
+  background-color: #9db3de;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.deliver p,
+.midService p{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.contact-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+
+.contact-wrapper {
+  width: 80%;
+  height: auto;
+  background-color: #b3c3d9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-Heading {
+  width: 100%;
+  height: 44px;
+ 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.contact-details {
+  width: 1000px;
+
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+form {
+  /* padding-top: 20px; */
+  max-width: 340px;
+  /* margin: 0 auto; */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container:focus-within label {
+  transform: translate(0, 12px) scale(0.8);
+  color: #0a53e4;
+}
+
+.input-container .filled {
+  transform: translate(0, 12px) scale(0.8);
+}
+
+.input-container label {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(0, 15px) scale(1);
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  color: #6f81a5;
+  font-size: 16px;
+  line-height: 1;
+  left: 16px;
+}
+
+.input-container input {
+  border-radius: 10px;
+  border: none;
+  padding: 24px 16px 4px 16px;
+  font-size: 16px;
+  line-height: 1;
+  outline: none;
+  box-shadow: none;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.input-container input:focus,
+.message:focus {
+  box-shadow: 0 0 0 2px #79b1ff;
+  outline: none;
+  border: none;
+}
+.message {
+  width: 345px;
+  height: 136px;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  padding: 24px 16px 4px 16px;
+  font-size: 16px;
+  line-height: 1;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.contact-submit-btn {
+  width: 170px;
+  height: 50px;
+  background: #668fde;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.map-Box {
+  width: 500px;
+  height: 300px;
+  border: none;
+}

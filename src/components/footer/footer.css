@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    height: 510px;
+    background: #7a91bc;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-contact-details {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 30px;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: forestgreen; */
+    justify-content: center;
+  }
+  .contactPhone,
+  .SocialLink {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 0;
+    align-items: flex-start;
+  }
+  .contact-phone-text {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+  .social-icon {
+    font-size: 50px;
+    padding:0 6px 0 0;
+    cursor: pointer;
+  }
+  
+  .footer-location {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .location-heading {
+    font-size: 20px;
+  }
+  .footer-map-Box {
+    height: 300px;
+    width: 500px;
+  }
+  

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Playfair+Display:wght@600&display=swap");
+* {
+  font-family: "Nunito Sans";
+}
+.singleProductPage{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.singleProductWrapper {
+  height: 542px;
+  max-width: 1000px;
+  background-color: #E8F1FE;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+}
+.singleImage{
+  height: 438px;
+  width: 392px;
+  border-radius: 10px;
+}
+.singleProductImage {
+  height: 438px;
+  width: 392px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.singleProductDetails {
+  width: 45%;
+  height: 335px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singleProductName {
+  font-size: 32px;
+  font-weight: 600;
+}
+.singleProductBrand{
+  font-size: 16px;
+
+}
+.singleProductPrice {
+  font-size: 16px;
+}
+.singleProductDesc{
+  height: 100px;
+}
+.singleProductButtons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.singleProductButtons button {
+  height: 50px;
+  width: 172px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.singleProductButtons button:first-child {
+  background-color: transparent;
+  border: 2px solid #668fde;
+  color: #668FDE;
+}
+.singleProductButtons button:last-child {
+  background-color: #668fde;
+  border: none;
+  color: white;
+}
+.fullstar {
+  color: orange;
+}
