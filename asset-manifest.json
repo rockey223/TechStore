@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TechStore/static/css/main.43115f39.css",
-    "main.js": "/TechStore/static/js/main.5cba158f.js",
+    "main.css": "/TechStore/static/css/main.8aa7a4e1.css",
+    "main.js": "/TechStore/static/js/main.dec37ee8.js",
     "index.html": "/TechStore/index.html",
-    "main.43115f39.css.map": "/TechStore/static/css/main.43115f39.css.map",
-    "main.5cba158f.js.map": "/TechStore/static/js/main.5cba158f.js.map"
+    "main.8aa7a4e1.css.map": "/TechStore/static/css/main.8aa7a4e1.css.map",
+    "main.dec37ee8.js.map": "/TechStore/static/js/main.dec37ee8.js.map"
   },
   "entrypoints": [
-    "static/css/main.43115f39.css",
-    "static/js/main.5cba158f.js"
+    "static/css/main.8aa7a4e1.css",
+    "static/js/main.dec37ee8.js"
   ]
 }
