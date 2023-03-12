@@ -1,23 +1,23 @@
-import { useContext } from "react";
+// import { useContext } from "react";
 
 import { AiOutlineDelete } from "react-icons/ai";
 import FormatPrice from "./singleProduct/FormatPrice";
 import "./product.css";
 import CartInc from "./cartIncDec";
-import { cartItem } from "./Context/CartContext";
+import {  useCartContext } from "./Context/CartContext";
 
 const CartTable = () => {
   const { cart, removeFromCart, decreaseQuantity, increaseQuantity } =
-    useContext(cartItem);
+    useCartContext();
 
   return (
     <>
-      {cart.map((item) => {
+      {cart.map((item,index) => {
         const { id, img, name, qty, price, quantity } = item;
 
         return (
           <>
-            <div className="cartItems" >
+            <div className="cartItems" key={index} >
               <img src={img} alt={id} className="cartImage" />
             </div>
             <div className="cartItems">

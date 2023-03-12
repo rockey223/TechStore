@@ -13,6 +13,8 @@ import BillingDetails from "./components/BillingDetails"
 import Payment from "./components/Payment";
 import ContactForm from "./components/Contact";
 import Footer from "./components/footer/Footer";
+import Qr from "./components/Qr";
+
 // import { useState,useEffect} from "react";
 // import { useContext } from "react";
 // import {cartItem} from "./components/Context/CartContext";
@@ -48,12 +50,14 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/techstore" element={<Home />} />
           <Route path="/products" element={<ProductList />} />
           <Route path="/singleproduct/:id" element={<SingleProduct list={list}  />} />
           <Route path="/cart" element={<Cart  />} />
           <Route path="/billingdetails" element={<BillingDetails  />} />
           <Route path="/payment" element={<Payment  />} />
           <Route path="/contact" element={<ContactForm  />} />
+          <Route path="/qr" element={<Qr />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer/>

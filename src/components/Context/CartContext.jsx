@@ -67,7 +67,7 @@ const CartContext = ({ children }) => {
 };
 
 const useCartContext= () =>{
-  return useContext(CartContext);
+  return useContext(cartItem);
 }
-export {useCartContext};
-export default CartContext;
+export {useCartContext, CartContext};
+

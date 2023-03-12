@@ -2,13 +2,13 @@ import React from 'react'
 import Banner from "./carousel/Banner"
 import FeatureProduct from './FeatureProduct'
 import Services from './Services'
-const Home = ({list}) => {
+const Home = () => {
   return (
     <>
    
     <Banner/>
     <Services/>
-    <FeatureProduct list={list}/>
+    <FeatureProduct/>
     </>
     
     

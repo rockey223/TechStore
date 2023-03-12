@@ -1,19 +1,25 @@
-import { useState } from "react";
 
+import {useForm,  ValidationError } from '@formspree/react';
 function TextInput({ type, label }) {
-  const [value, setValue] = useState("");
-
-  function handleChange(e) {
-    setValue(e.target.value);
-  }
+  const [state, handleSubmit] = useForm("xleklnlk");
 
   return (
+
+    <>
     <div className="input-container">
-      <input type={type} value={value} onChange={handleChange} />
-      <label className={value && "filled"} >
+      <input type={type} name={label}/>
+
+      <label className={"filled"} >
         {label}
       </label>
     </div>
+    <ValidationError 
+        prefix={label} 
+        field={label}
+        errors={state.errors}
+      />
+
+      </>
   );
 }
 
